@@ -33,7 +33,7 @@ namespace gdraw {
         depthTexture = SDL_CreateGPUTexture(device, &depthTextureInfo);
 
         // Init projection matrix
-        projection = Mat4::CreatePerspectiveFieldOfView(45.0f, static_cast<f32>(window.width) / static_cast<f32>(window.height), 0.1f, 100.0f);
+        projection = Mat4::CreatePerspectiveFieldOfView(45.0f, static_cast<f32>(window.width) / static_cast<f32>(window.height), 0.1f, 1000000.0f);
     }
 
     void Renderer::Begin() {

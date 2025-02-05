@@ -24,7 +24,7 @@ namespace gdraw
         void Draw(const Renderer& renderer);
         void Unload();
 
-    private:
+    public:
         SphereCubeMaterial material;
         SphereCubeMesh mesh;
         Mat4 transform { Mat4::identity };

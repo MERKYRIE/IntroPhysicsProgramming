@@ -12,39 +12,24 @@ using gphysics::CollisionPair;
 
 void Scene05Bodies::Load(Renderer& renderer) {
     SphereCube * sphere;
-
-    for (int i = 0; i < 6; ++i)
-    {
-        for (int j = 0; j < 6; ++j)
-        {
-            float radius = 0.5f;
-            float x = (i - 1) * radius * 1.5f;
-            float y = (j - 1) * radius * 1.5f;
-            sphere = new SphereCube(renderer);
-            sphere->Load();
-            bodies.emplace_back(Vec(x, y, 10), Quat::identity, new ShapeSphere(radius), sphere);
-            bodies.back().inverseMass = 1.0f;
-            bodies.back().elasticity = 0.5f;
-            bodies.back().friction = 0.5f;
-            bodies.back().linearVelocity = Vec::zero;
-        }
-    }
-    
-    for (int i = 0; i < 3; ++i)
-    {
-        for (int j = 0; j < 3; ++j)
-        {
-            float radius = 80.0f;
-            float x = (i - 1) * radius * 0.25f;
-            float y = (j - 1) * radius * 0.25f;
-            sphere = new SphereCube(renderer);
-            sphere->Load();
-            bodies.emplace_back(Vec(x, y, -radius), Quat::identity, new ShapeSphere(radius), sphere);
-            bodies.back().inverseMass = 1.0f;
-            bodies.back().elasticity = 0.99f;
-            bodies.back().friction = 0.5f;
-        }
-    }
+    /*
+    sphere = new SphereCube(renderer);
+    sphere->Load();
+    bodies.emplace_back(Vec(0, 0, 0), Quat::identity, new ShapeSphere(1), sphere);
+    bodies.back().linearVelocity = Vec::zero;
+    bodies.back().inverseMass = 1.0f;
+    bodies.back().elasticity = 0.5f;
+    bodies.back().angularVelocity = Vec::zero;
+    bodies.back().friction = 0.5f;
+    */
+    sphere = new SphereCube(renderer);
+    sphere->Load();
+    bodies.emplace_back(Vec(0, -5, -5), Quat::identity, new ShapeSphere(1000), sphere);
+    bodies.back().linearVelocity = Vec::zero;
+    bodies.back().inverseMass = 0.0f;
+    bodies.back().elasticity = 0.99f;
+    bodies.back().angularVelocity = Vec::zero;
+    bodies.back().friction = 0.5f;
 }
 
 bool Scene05Bodies::Update(float dt) {
@@ -58,7 +43,7 @@ bool Scene05Bodies::Update(float dt) {
         // Gravity needs to be an impulse I
         // I == dp, so F == dp/dt <=> dp = F * dt
         // <=> I = F * dt <=> I = m * g * dt
-        Vec impulseGravity = Vec(0, 0, -10) * mass * dt;
+        Vec impulseGravity = Vec(0, -10, 0) * mass * dt;
         body.ApplyImpulseLinear(impulseGravity);
     }
 
