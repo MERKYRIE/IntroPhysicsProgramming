@@ -24,7 +24,7 @@ void Scene05Bodies::Load(Renderer& renderer) {
     */
     sphere = new SphereCube(renderer);
     sphere->Load();
-    bodies.emplace_back(Vec(0, -5, -5), Quat::identity, new ShapeSphere(1000), sphere);
+    bodies.emplace_back(Vec(0, -5, -50), Quat::identity, new ShapeSphere(1000), sphere);
     bodies.back().linearVelocity = Vec::zero;
     bodies.back().inverseMass = 0.0f;
     bodies.back().elasticity = 0.99f;
