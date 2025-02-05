@@ -6,6 +6,10 @@
 #include "Shape.hpp"
 #include "Drawable.hpp"
 #include "Mat3.hpp"
+#include "SphereCube.hpp"
+#include "ShapeSphere.hpp"
+
+using gdraw::SphereCube;
 
 namespace gphysics {
 
@@ -51,6 +55,10 @@ namespace gphysics {
         position = positionCM + dq.RotatePoint(CMToPositon);
 
         drawable->Update(dt);
+
+        static_cast<SphereCube *>(drawable)->transform
+        =
+        Mat4::CreateTranslation(position.x , position.y , position.z) * Mat4::CreateFromQuaternion(orientation) * Mat4::CreateScale(static_cast<ShapeSphere *>(shape)->radius);
     }
 
     Vec Body::GetCenterOfMassWorldSpace() const
