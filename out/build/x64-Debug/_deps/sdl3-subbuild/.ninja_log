@@ -1,21 +1,21 @@
-# ninja log v5
-2	73	7604496109645757	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	8f0b1644edeca6fe
-2	73	7604496109645757	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	8f0b1644edeca6fe
-22628	22696	7604496335891948	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	5375274477244e54
-22964	23031	7604496339212763	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	eab2093c8035b2cd
-22696	22763	7604496336461752	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	9ecabf57b3c7e50d
-73	22578	7604496334669584	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	3f53e162c8b02d00
-73	22578	7604496334669584	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	3f53e162c8b02d00
-22696	22763	7604496336461752	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	9ecabf57b3c7e50d
-22628	22696	7604496335891948	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	5375274477244e54
-22764	22830	7604496337192814	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	dcbca4831541ced0
-22830	22897	7604496337862680	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	75f2a83c0f5f290e
-22764	22830	7604496337192814	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	dcbca4831541ced0
-22830	22897	7604496337862680	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	75f2a83c0f5f290e
-22897	22964	7604496338537279	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	aa1e67b7400a40f6
-22897	22964	7604496338537279	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	aa1e67b7400a40f6
-22964	23031	7604496339212763	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	eab2093c8035b2cd
-23031	23123	7604496340138961	CMakeFiles/sdl3-populate-complete	23ea31d736de7651
-23031	23123	7604496340138961	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	23ea31d736de7651
-23031	23123	7604496340138961	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete	23ea31d736de7651
-23031	23123	7604496340138961	D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	23ea31d736de7651
+# ninja log v6
+3	81	7630633404211340	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	b3234c18bb7106c6
+2758	2819	7630633431585967	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	f62456783406a6
+3	81	7630633404211340	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-mkdir	b3234c18bb7106c6
+81	2758	7630633430977526	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	a6b71207feab8295
+2758	2819	7630633431585967	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-update	f62456783406a6
+81	2758	7630633430977526	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-download	a6b71207feab8295
+2819	2881	7630633432213076	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	fcae2fb54b07bccc
+2819	2881	7630633432213076	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-patch	fcae2fb54b07bccc
+3134	3223	7630633435641623	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	2927209a668c57fa
+2881	2942	7630633432831016	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	1af08ddab0ec20f0
+2942	3006	7630633433468877	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	96bfc29acd96edfd
+2881	2942	7630633432831016	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-configure	1af08ddab0ec20f0
+3006	3070	7630633434106757	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	a17fa6c7b0d3bc4e
+2942	3006	7630633433468877	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-build	96bfc29acd96edfd
+3006	3070	7630633434106757	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-install	a17fa6c7b0d3bc4e
+3071	3133	7630633434714721	sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	9605f2132a66b0d1
+3071	3133	7630633434714721	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-test	9605f2132a66b0d1
+3134	3223	7630633435641623	CMakeFiles/sdl3-populate-complete	2927209a668c57fa
+3134	3223	7630633435641623	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/CMakeFiles/sdl3-populate-complete	2927209a668c57fa
+3134	3223	7630633435641623	D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/sdl3-populate-done	2927209a668c57fa

@@ -3,10 +3,10 @@
 # No other meaning or use of this file is supported.
 
 method=url
-command=C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/download-sdl3-populate.cmake;COMMAND;C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/verify-sdl3-populate.cmake;COMMAND;C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-P;D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/extract-sdl3-populate.cmake
-source_dir=D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src
-work_dir=D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps
+command=D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/download-sdl3-populate.cmake;COMMAND;D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/verify-sdl3-populate.cmake;COMMAND;D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/bin/cmake.exe;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-subbuild/sdl3-populate-prefix/src/sdl3-populate-stamp/extract-sdl3-populate.cmake
+source_dir=D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src
+work_dir=D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps
 url(s)=https://github.com/libsdl-org/SDL/releases/download/release-3.2.0/SDL3-3.2.0.zip
 hash=
-no_extract=
+      no_extract=
 

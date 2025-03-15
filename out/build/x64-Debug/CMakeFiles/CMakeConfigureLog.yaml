@@ -4,30 +4,30 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      The system is: Windows - 10.0.19045 - AMD64
+      The system is: Windows - 10.0.22621 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-      Compiler: C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Compiler: D:/Programs/Studio/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34808 for x64
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       CMakeCCompilerId.c
-      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       /out:CMakeCCompilerId.exe 
@@ -39,41 +39,41 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdC/CMakeCCompilerId.exe
+        D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        Note: including file: D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
     kind: "message-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-      Compiler: C:/VisualStudio/VC/Tools/MSVC/14.40.33807/bin/Hostx64/x64/cl.exe 
+      Compiler: D:/Programs/Studio/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/cl.exe 
       Build flags: 
       Id flags:  
       
       The output was:
       0
-      Microsoft (R) C/C++ Optimizing Compiler Version 19.40.33812 for x64
+      Microsoft (R) C/C++ Optimizing Compiler Version 19.43.34808 for x64
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       CMakeCXXCompilerId.cpp
-      Microsoft (R) Incremental Linker Version 14.40.33812.0
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
       
       /out:CMakeCXXCompilerId.exe 
@@ -85,32 +85,32 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/3.28.3-msvc11/CompilerIdCXX/CMakeCXXCompilerId.exe
+        D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/3.30.5-msvc23/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1182 (message)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:247 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:1243 (message)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Note: including file: D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9w7y1e"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9w7y1e"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-90p41a"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-90p41a"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -119,470 +119,524 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-9w7y1e'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-90p41a'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_80ec5
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_80ec5.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_80ec5.dir\\ /FS -c C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_80ec5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_80ec5.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_80ec5.exe /implib:cmTC_80ec5.lib /pdb:cmTC_80ec5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_280c2
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_280c2.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_280c2.dir\\ /FS -c D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_280c2.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_280c2.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_280c2.exe /implib:cmTC_280c2.lib /pdb:cmTC_280c2.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Programs/Studio/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Programs/Studio/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yf5ker"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yf5ker"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tp8oi9"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tp8oi9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yf5ker'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-tp8oi9'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_77f42
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_77f42.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_77f42.dir\\ /FS -c C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_77f42.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_77f42.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_77f42.exe /implib:cmTC_77f42.lib /pdb:cmTC_77f42.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_41bf7
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_41bf7.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_41bf7.dir\\ /FS -c D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_41bf7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_41bf7.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_41bf7.exe /implib:cmTC_41bf7.lib /pdb:cmTC_41bf7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Programs/Studio/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Programs/Studio/VC/Tools/MSVC/14.43.34808/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.43.34808.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
   -
     kind: "try_compile-v1"
     backtrace:
       - "out/build/x64-Debug/_deps/sdl3-src/cmake/sdlcpu.cmake:93 (try_compile)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:75 (SDL_DetectTargetCPUArchitectures)"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "SDL_CPU_CHECK_ALL"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-build/CMakeFiles/CMakeTmp/SDL_detect_arch/CMakeFiles/CMakeTmp'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_fca60
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_fca60.dir\\SDL_detect_arch.c.obj /FdCMakeFiles\\cmTC_fca60.dir\\cmTC_fca60.pdb /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_fca60.lib CMakeFiles\\cmTC_fca60.dir\\SDL_detect_arch.c.obj  && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_d9354
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_d9354.dir\\SDL_detect_arch.c.obj /FdCMakeFiles\\cmTC_d9354.dir\\cmTC_d9354.pdb /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\_deps\\sdl3-build\\CMakeFiles\\CMakeTmp\\SDL_detect_arch.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\lib.exe /nologo /machine:x64 /out:cmTC_d9354.lib CMakeFiles\\cmTC_d9354.dir\\SDL_detect_arch.c.obj && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:645 (check_c_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_MMX"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8xw4g0"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8xw4g0"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-owaiih"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-owaiih"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "COMPILER_SUPPORTS_MMX"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-8xw4g0'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-owaiih'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_8cf46
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_8cf46.dir\\src.c.obj /FdCMakeFiles\\cmTC_8cf46.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8xw4g0\\src.c"
-        FAILED: CMakeFiles/cmTC_8cf46.dir/src.c.obj 
-        C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_8cf46.dir\\src.c.obj /FdCMakeFiles\\cmTC_8cf46.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8xw4g0\\src.c"
-        D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-8xw4g0\\src.c(5): error C2440: '=': cannot convert from 'int' to '__m64'
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_eaf5f
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_eaf5f.dir\\src.c.obj /FdCMakeFiles\\cmTC_eaf5f.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-owaiih\\src.c
+        FAILED: CMakeFiles/cmTC_eaf5f.dir/src.c.obj 
+        D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_MMX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_eaf5f.dir\\src.c.obj /FdCMakeFiles\\cmTC_eaf5f.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-owaiih\\src.c
+        D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-owaiih\\src.c(5): error C2440: '=': cannot convert from 'int' to '__m64'
         ninja: build stopped: subcommand failed.
         
       exitCode: 1
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:666 (check_c_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2x39sj"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2x39sj"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nx035i"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nx035i"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "COMPILER_SUPPORTS_SSE"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2x39sj'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-nx035i'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_08181
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_08181.dir\\src.c.obj /FdCMakeFiles\\cmTC_08181.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2x39sj\\src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_08181.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_08181.dir\\src.c.obj  /out:cmTC_08181.exe /implib:cmTC_08181.lib /pdb:cmTC_08181.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_a2517
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_a2517.dir\\src.c.obj /FdCMakeFiles\\cmTC_a2517.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-nx035i\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_a2517.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_a2517.dir\\src.c.obj  /out:cmTC_a2517.exe /implib:cmTC_a2517.lib /pdb:cmTC_a2517.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:687 (check_c_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE2"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2e3lqv"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2e3lqv"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-utlfvb"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-utlfvb"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "COMPILER_SUPPORTS_SSE2"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2e3lqv'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-utlfvb'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_cfcde
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_cfcde.dir\\src.c.obj /FdCMakeFiles\\cmTC_cfcde.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2e3lqv\\src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_cfcde.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cfcde.dir\\src.c.obj  /out:cmTC_cfcde.exe /implib:cmTC_cfcde.lib /pdb:cmTC_cfcde.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_dd907
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_dd907.dir\\src.c.obj /FdCMakeFiles\\cmTC_dd907.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-utlfvb\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_dd907.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_dd907.dir\\src.c.obj  /out:cmTC_dd907.exe /implib:cmTC_dd907.lib /pdb:cmTC_dd907.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:708 (check_c_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE3"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uwl8l9"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uwl8l9"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g0w096"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g0w096"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "COMPILER_SUPPORTS_SSE3"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-uwl8l9'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-g0w096'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_c4166
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE3  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_c4166.dir\\src.c.obj /FdCMakeFiles\\cmTC_c4166.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-uwl8l9\\src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c4166.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c4166.dir\\src.c.obj  /out:cmTC_c4166.exe /implib:cmTC_c4166.lib /pdb:cmTC_c4166.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_0a0ce
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE3  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_0a0ce.dir\\src.c.obj /FdCMakeFiles\\cmTC_0a0ce.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-g0w096\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_0a0ce.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0a0ce.dir\\src.c.obj  /out:cmTC_0a0ce.exe /implib:cmTC_0a0ce.lib /pdb:cmTC_0a0ce.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:729 (check_c_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE4_1"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-oehe3z"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-oehe3z"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xwic7i"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xwic7i"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "COMPILER_SUPPORTS_SSE4_1"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-oehe3z'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xwic7i'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_ea1da
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE4_1  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_ea1da.dir\\src.c.obj /FdCMakeFiles\\cmTC_ea1da.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-oehe3z\\src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_ea1da.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ea1da.dir\\src.c.obj  /out:cmTC_ea1da.exe /implib:cmTC_ea1da.lib /pdb:cmTC_ea1da.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_dd0ba
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE4_1  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_dd0ba.dir\\src.c.obj /FdCMakeFiles\\cmTC_dd0ba.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-xwic7i\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_dd0ba.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_dd0ba.dir\\src.c.obj  /out:cmTC_dd0ba.exe /implib:cmTC_dd0ba.lib /pdb:cmTC_dd0ba.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:750 (check_c_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_SSE4_2"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2ljqa4"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2ljqa4"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j858e9"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j858e9"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "COMPILER_SUPPORTS_SSE4_2"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2ljqa4'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j858e9'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_176b5
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE4_2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_176b5.dir\\src.c.obj /FdCMakeFiles\\cmTC_176b5.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2ljqa4\\src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_176b5.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_176b5.dir\\src.c.obj  /out:cmTC_176b5.exe /implib:cmTC_176b5.lib /pdb:cmTC_176b5.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_18599
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_SSE4_2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_18599.dir\\src.c.obj /FdCMakeFiles\\cmTC_18599.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-j858e9\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_18599.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_18599.dir\\src.c.obj  /out:cmTC_18599.exe /implib:cmTC_18599.lib /pdb:cmTC_18599.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:773 (check_c_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jfgmtw"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jfgmtw"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cl9yw5"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cl9yw5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "COMPILER_SUPPORTS_AVX"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-jfgmtw'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-cl9yw5'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_75981
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_75981.dir\\src.c.obj /FdCMakeFiles\\cmTC_75981.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-jfgmtw\\src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_75981.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_75981.dir\\src.c.obj  /out:cmTC_75981.exe /implib:cmTC_75981.lib /pdb:cmTC_75981.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_44d86
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_44d86.dir\\src.c.obj /FdCMakeFiles\\cmTC_44d86.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-cl9yw5\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_44d86.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_44d86.dir\\src.c.obj  /out:cmTC_44d86.exe /implib:cmTC_44d86.lib /pdb:cmTC_44d86.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:794 (check_c_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX2"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-spj6z6"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-spj6z6"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kxsle5"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kxsle5"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "COMPILER_SUPPORTS_AVX2"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-spj6z6'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kxsle5'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_9991f
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_9991f.dir\\src.c.obj /FdCMakeFiles\\cmTC_9991f.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-spj6z6\\src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_9991f.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_9991f.dir\\src.c.obj  /out:cmTC_9991f.exe /implib:cmTC_9991f.lib /pdb:cmTC_9991f.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_dcf4c
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX2  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_dcf4c.dir\\src.c.obj /FdCMakeFiles\\cmTC_dcf4c.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kxsle5\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_dcf4c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_dcf4c.dir\\src.c.obj  /out:cmTC_dcf4c.exe /implib:cmTC_dcf4c.lib /pdb:cmTC_dcf4c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:815 (check_c_source_compiles)"
     checks:
       - "Performing Test COMPILER_SUPPORTS_AVX512F"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xf81jt"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xf81jt"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1bzgfr"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1bzgfr"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "COMPILER_SUPPORTS_AVX512F"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-xf81jt'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1bzgfr'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_ebecf
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX512F  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_ebecf.dir\\src.c.obj /FdCMakeFiles\\cmTC_ebecf.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-xf81jt\\src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_ebecf.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_ebecf.dir\\src.c.obj  /out:cmTC_ebecf.exe /implib:cmTC_ebecf.lib /pdb:cmTC_ebecf.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_c16c7
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DCOMPILER_SUPPORTS_AVX512F  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_c16c7.dir\\src.c.obj /FdCMakeFiles\\cmTC_c16c7.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1bzgfr\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_c16c7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c16c7.dir\\src.c.obj  /out:cmTC_c16c7.exe /implib:cmTC_c16c7.lib /pdb:cmTC_c16c7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:958 (check_include_file)"
     checks:
       - "Looking for malloc.h"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rx8umx"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rx8umx"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n8k1xt"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n8k1xt"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "HAVE_MALLOC_H"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rx8umx'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-n8k1xt'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_53078
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_53078.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_53078.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rx8umx\\CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_53078.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_53078.dir\\CheckIncludeFile.c.obj  /out:cmTC_53078.exe /implib:cmTC_53078.lib /pdb:cmTC_53078.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_06d7d
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_06d7d.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_06d7d.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-n8k1xt\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_06d7d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_06d7d.dir\\CheckIncludeFile.c.obj  /out:cmTC_06d7d.exe /implib:cmTC_06d7d.lib /pdb:cmTC_06d7d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1039 (check_symbol_exists)"
     checks:
       - "Looking for _copysign"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qybril"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qybril"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5c0c66"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5c0c66"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "LIBC_HAS__COPYSIGN"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-qybril'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-5c0c66'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_2d719
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_2d719.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_2d719.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-qybril\\CheckSymbolExists.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_2d719.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2d719.dir\\CheckSymbolExists.c.obj  /out:cmTC_2d719.exe /implib:cmTC_2d719.lib /pdb:cmTC_2d719.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_abec7
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_abec7.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_abec7.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-5c0c66\\CheckSymbolExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_abec7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_abec7.dir\\CheckSymbolExists.c.obj  /out:cmTC_abec7.exe /implib:cmTC_abec7.lib /pdb:cmTC_abec7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:154 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1039 (check_symbol_exists)"
     checks:
       - "Looking for _fseeki64"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yxq4tq"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yxq4tq"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-da8jjr"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-da8jjr"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "LIBC_HAS__FSEEKI64"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yxq4tq'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-da8jjr'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_60311
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_60311.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_60311.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yxq4tq\\CheckSymbolExists.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_60311.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_60311.dir\\CheckSymbolExists.c.obj  /out:cmTC_60311.exe /implib:cmTC_60311.lib /pdb:cmTC_60311.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_96e66
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_96e66.dir\\CheckSymbolExists.c.obj /FdCMakeFiles\\cmTC_96e66.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-da8jjr\\CheckSymbolExists.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_96e66.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_96e66.dir\\CheckSymbolExists.c.obj  /out:cmTC_96e66.exe /implib:cmTC_96e66.lib /pdb:cmTC_96e66.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
       - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1960 (check_c_source_compiles)"
     checks:
       - "Performing Test HAVE_GAMEINPUT_H"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sbbkgl"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sbbkgl"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2g2fzj"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2g2fzj"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "HAVE_GAMEINPUT_H"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-sbbkgl'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2g2fzj'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_b827e
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_GAMEINPUT_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_b827e.dir\\src.c.obj /FdCMakeFiles\\cmTC_b827e.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sbbkgl\\src.c"
-        FAILED: CMakeFiles/cmTC_b827e.dir/src.c.obj 
-        C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_GAMEINPUT_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_b827e.dir\\src.c.obj /FdCMakeFiles\\cmTC_b827e.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sbbkgl\\src.c"
-        D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-sbbkgl\\src.c(4): fatal error C1083: Cannot open include file: 'gameinput.h': No such file or directory
-        ninja: build stopped: subcommand failed.
-        
-      exitCode: 1
-  -
-    kind: "try_compile-v1"
-    backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake:90 (try_compile)"
-      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1966 (check_include_file)"
-    checks:
-      - "Looking for dxgi1_6.h"
-    directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zr46ts"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zr46ts"
-    cmakeVariables:
-      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
-      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
-      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
-    buildResult:
-      variable: "HAVE_DXGI1_6_H"
-      cached: true
-      stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zr46ts'
-        
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_8aad0
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_8aad0.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_8aad0.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zr46ts\\CheckIncludeFile.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_8aad0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_8aad0.dir\\CheckIncludeFile.c.obj  /out:cmTC_8aad0.exe /implib:cmTC_8aad0.lib /pdb:cmTC_8aad0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_e75e0
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_GAMEINPUT_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_e75e0.dir\\src.c.obj /FdCMakeFiles\\cmTC_e75e0.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2g2fzj\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_e75e0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_e75e0.dir\\src.c.obj  /out:cmTC_e75e0.exe /implib:cmTC_e75e0.lib /pdb:cmTC_e75e0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
-      - "C:/VisualStudio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
-      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1973 (check_c_source_compiles)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckIncludeFile.cmake:90 (try_compile)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1966 (check_include_file)"
     checks:
-      - "Performing Test HAVE_MFAPI_H"
+      - "Looking for dxgi1_6.h"
     directories:
-      source: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-r2dg3r"
-      binary: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-r2dg3r"
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-w7n5ax"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-w7n5ax"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
       CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
-      CMAKE_MODULE_PATH: "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
+    buildResult:
+      variable: "HAVE_DXGI1_6_H"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-w7n5ax'
+        
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_df05c
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_df05c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_df05c.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-w7n5ax\\CheckIncludeFile.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_df05c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_df05c.dir\\CheckIncludeFile.c.obj  /out:cmTC_df05c.exe /implib:cmTC_df05c.lib /pdb:cmTC_df05c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Programs/Studio/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "out/build/x64-Debug/_deps/sdl3-src/CMakeLists.txt:1973 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_MFAPI_H"
+    directories:
+      source: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rlfrnv"
+      binary: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rlfrnv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od "
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src/cmake"
     buildResult:
       variable: "HAVE_MFAPI_H"
       cached: true
       stdout: |
-        Change Dir: 'D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-r2dg3r'
+        Change Dir: 'D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rlfrnv'
         
-        Run Build Command(s): C:\\VISUALSTUDIO\\COMMON7\\IDE\\COMMONEXTENSIONS\\MICROSOFT\\CMAKE\\Ninja\\ninja.exe -v cmTC_5ac94
-        [1/2] C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_MFAPI_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_5ac94.dir\\src.c.obj /FdCMakeFiles\\cmTC_5ac94.dir\\ /FS -c "D:\\MRK\\Visual Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-r2dg3r\\src.c"
-        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\VisualStudio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_5ac94.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100226~1.0\\x64\\mt.exe --manifests  -- C:\\VisualStudio\\VC\\Tools\\MSVC\\14.40.33807\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5ac94.dir\\src.c.obj  /out:cmTC_5ac94.exe /implib:cmTC_5ac94.lib /pdb:cmTC_5ac94.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): d:\\programs\\studio\\common7\\ide\\commonextensions\\microsoft\\cmake\\Ninja\\ninja.exe -v cmTC_5dde0
+        [1/2] D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe  /nologo -DHAVE_MFAPI_H  /DWIN32 /D_WINDOWS  -D_GNU_SOURCE=1 /Zi /Ob0 /Od  -MDd /showIncludes /FoCMakeFiles\\cmTC_5dde0.dir\\src.c.obj /FdCMakeFiles\\cmTC_5dde0.dir\\ /FS -c D:\\Programs\\_Studio\\Projects\\IntroPhysicsProgramming\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rlfrnv\\src.c
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && D:\\Programs\\Studio\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe -E vs_link_exe --intdir=CMakeFiles\\cmTC_5dde0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- D:\\Programs\\Studio\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_5dde0.dir\\src.c.obj  /out:cmTC_5dde0.exe /implib:cmTC_5dde0.lib /pdb:cmTC_5dde0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
 ...

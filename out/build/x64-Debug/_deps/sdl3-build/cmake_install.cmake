@@ -1,8 +1,8 @@
-# Install script for directory: D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src
+# Install script for directory: D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/build/x64-Debug/_deps/sdl3-src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "D:/MRK/Visual Studio/Projects/IntroPhysicsProgramming/out/install/x64-Debug")
+  set(CMAKE_INSTALL_PREFIX "D:/Programs/_Studio/Projects/IntroPhysicsProgramming/out/install/x64-Debug")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

@@ -4,6 +4,7 @@
 #include "Intersections.hpp"
 #include "Contact.hpp"
 #include "Broadphase.hpp"
+#include <random>
 
 using gphysics::ShapeSphere;
 using gphysics::Intersections;
@@ -12,24 +13,36 @@ using gphysics::CollisionPair;
 
 void Scene05Bodies::Load(Renderer& renderer) {
     SphereCube * sphere;
-    /*
+
     sphere = new SphereCube(renderer);
     sphere->Load();
-    bodies.emplace_back(Vec(0, 0, 0), Quat::identity, new ShapeSphere(1), sphere);
-    bodies.back().linearVelocity = Vec::zero;
-    bodies.back().inverseMass = 1.0f;
-    bodies.back().elasticity = 0.5f;
-    bodies.back().angularVelocity = Vec::zero;
-    bodies.back().friction = 0.5f;
-    */
-    sphere = new SphereCube(renderer);
-    sphere->Load();
-    bodies.emplace_back(Vec(0, -5, -50), Quat::identity, new ShapeSphere(1000), sphere);
+    bodies.emplace_back(Vec(0, 0, 0), Quat::identity, new ShapeSphere(1'000'000.0f), sphere);
     bodies.back().linearVelocity = Vec::zero;
     bodies.back().inverseMass = 0.0f;
     bodies.back().elasticity = 0.99f;
     bodies.back().angularVelocity = Vec::zero;
     bodies.back().friction = 0.5f;
+
+    sphere = new SphereCube(renderer);
+    sphere->Load();
+    bodies.emplace_back(Vec(0, 1'000'000, -1'000'000.0f), Quat::identity, new ShapeSphere(1'000'000.0f), sphere);
+    bodies.back().linearVelocity = Vec::zero;
+    bodies.back().inverseMass = 0.0f;
+    bodies.back().elasticity = 0.99f;
+    bodies.back().angularVelocity = Vec::zero;
+    bodies.back().friction = 0.5f;
+
+    sphere = new SphereCube(renderer);
+    sphere->Load();
+    std::random_device generator;
+    std::uniform_real_distribution<float> z(-15.0f, -5.0f);
+    std::uniform_real_distribution<float> x(-5.0f, 5.0f);
+    bodies.emplace_back(Vec(0, 1'000'000.0f, 500.0f), Quat::identity, new ShapeSphere(1), sphere);
+    bodies.back().linearVelocity = Vec(x(generator), 0, z(generator));
+    bodies.back().inverseMass = 0.0f;
+    bodies.back().elasticity = 0.5f;
+    bodies.back().angularVelocity = Vec::zero;
+    bodies.back().friction = 5.5f;
 }
 
 bool Scene05Bodies::Update(float dt) {
